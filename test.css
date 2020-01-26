@@ -1,0 +1,89 @@
+/* body {
+	background: linear-gradient(-45deg, #4c4c4c, #464646, #191919, #000000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+
+/* body {
+    background: linear-gradient(180deg, #000000, #9f9f9f);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 10%
+    }
+    50% {
+        background-position: 100% 91%
+    }
+    100% {
+        background-position: 0% 10%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 10%
+    }
+    50% {
+        background-position: 100% 91%
+    }
+    100% {
+        background-position: 0% 10%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 10%
+    }
+    50% {
+        background-position: 100% 91%
+    }
+    100% {
+        background-position: 0% 10%
+    }
+} */
+
+.splash {
+    background: rgba(76, 76, 80, 0.8);
+}
+
+#splash2 {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230029ff' fill-opacity='0.4'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    animation: myanim 8s infinite;
+    animation-direction: alternate;
+    background-position: center;
+    background-size: 50px;
+ }
+ @keyframes myanim {
+    20% {
+       background-position: center;
+       background-size: 55px;
+    }
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
